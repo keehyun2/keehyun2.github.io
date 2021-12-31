@@ -1,0 +1,142 @@
+<!doctype html><html lang=en dir=auto>
+<head><meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=robots content="index, follow">
+<title>DDD START(ch.2) | keehyun2's note</title>
+<meta name=keywords content>
+<meta name=description content="아키텍처 소프트웨어 아키텍처 에는 4가지 영역(계층)이 있습니다. (표현, 응용, 도메인, 인프라)
+ 표현 영역(Controler)는 http request 와 response를 처리하는 계층입니다. 응용 영역(Service)는 내부 로직을 구현합니다. 로직을 직접 구현하기보단 도메인에 로직 구현을 위임합니다. 도메인 영역(Order, DTO, VO)은 도메인 모델을 구현하고, 도메인과 관련된 핵심 로직을 구현합니다. 인프라스트럭처 영역 (jpa 를 사용한 경우 Repository) 은 구현 기술을 다룹니다. 다른 ORM 프레임워크나 외부 시스템과 연동을 지원합니다.  (계층구조) 아키텍처 4가지 영역을 사용할때 보편적으로 계층구조 아키텍처를 사용합니다.">
+<meta name=author content>
+<link rel=canonical href=https://keehyun2.github.io/posts/ddd-startch.2/>
+<link crossorigin=anonymous href=/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
+<script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
+<link rel=icon href=https://keehyun2.github.io/favicon.ico>
+<link rel=icon type=image/png sizes=16x16 href=https://keehyun2.github.io/favicon-16x16.png>
+<link rel=icon type=image/png sizes=32x32 href=https://keehyun2.github.io/favicon-32x32.png>
+<link rel=apple-touch-icon href=https://keehyun2.github.io/apple-touch-icon.png>
+<link rel=mask-icon href=https://keehyun2.github.io/safari-pinned-tab.svg>
+<meta name=theme-color content="#2e2e33">
+<meta name=msapplication-TileColor content="#2e2e33">
+<meta name=generator content="Hugo 0.91.2">
+<noscript>
+<style>#theme-toggle,.top-link{display:none}</style>
+<style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
+</noscript><meta property="og:title" content="DDD START(ch.2)">
+<meta property="og:description" content="아키텍처 소프트웨어 아키텍처 에는 4가지 영역(계층)이 있습니다. (표현, 응용, 도메인, 인프라)
+ 표현 영역(Controler)는 http request 와 response를 처리하는 계층입니다. 응용 영역(Service)는 내부 로직을 구현합니다. 로직을 직접 구현하기보단 도메인에 로직 구현을 위임합니다. 도메인 영역(Order, DTO, VO)은 도메인 모델을 구현하고, 도메인과 관련된 핵심 로직을 구현합니다. 인프라스트럭처 영역 (jpa 를 사용한 경우 Repository) 은 구현 기술을 다룹니다. 다른 ORM 프레임워크나 외부 시스템과 연동을 지원합니다.  (계층구조) 아키텍처 4가지 영역을 사용할때 보편적으로 계층구조 아키텍처를 사용합니다.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keehyun2.github.io/posts/ddd-startch.2/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2021-12-31T10:22:20+09:00">
+<meta property="article:modified_time" content="2021-12-31T10:22:20+09:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="DDD START(ch.2)">
+<meta name=twitter:description content="아키텍처 소프트웨어 아키텍처 에는 4가지 영역(계층)이 있습니다. (표현, 응용, 도메인, 인프라)
+ 표현 영역(Controler)는 http request 와 response를 처리하는 계층입니다. 응용 영역(Service)는 내부 로직을 구현합니다. 로직을 직접 구현하기보단 도메인에 로직 구현을 위임합니다. 도메인 영역(Order, DTO, VO)은 도메인 모델을 구현하고, 도메인과 관련된 핵심 로직을 구현합니다. 인프라스트럭처 영역 (jpa 를 사용한 경우 Repository) 은 구현 기술을 다룹니다. 다른 ORM 프레임워크나 외부 시스템과 연동을 지원합니다.  (계층구조) 아키텍처 4가지 영역을 사용할때 보편적으로 계층구조 아키텍처를 사용합니다.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://keehyun2.github.io/posts/"},{"@type":"ListItem","position":2,"name":"DDD START(ch.2)","item":"https://keehyun2.github.io/posts/ddd-startch.2/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"DDD START(ch.2)","name":"DDD START(ch.2)","description":"아키텍처 소프트웨어 아키텍처 에는 4가지 영역(계층)이 있습니다. (표현, 응용, 도메인, 인프라)\n 표현 영역(Controler)는 http request 와 response를 처리하는 계층입니다. 응용 영역(Service)는 내부 로직을 구현합니다. 로직을 직접 구현하기보단 도메인에 로직 구현을 위임합니다. 도메인 영역(Order, DTO, VO)은 도메인 모델을 구현하고, 도메인과 관련된 핵심 로직을 구현합니다. 인프라스트럭처 영역 (jpa 를 사용한 경우 Repository) 은 구현 기술을 다룹니다. 다른 ORM 프레임워크나 외부 시스템과 연동을 지원합니다.  (계층구조) 아키텍처 4가지 영역을 사용할때 보편적으로 계층구조 아키텍처를 사용합니다.","keywords":[],"articleBody":"아키텍처 소프트웨어 아키텍처 에는 4가지 영역(계층)이 있습니다. (표현, 응용, 도메인, 인프라)\n 표현 영역(Controler)는 http request 와 response를 처리하는 계층입니다. 응용 영역(Service)는 내부 로직을 구현합니다. 로직을 직접 구현하기보단 도메인에 로직 구현을 위임합니다. 도메인 영역(Order, DTO, VO)은 도메인 모델을 구현하고, 도메인과 관련된 핵심 로직을 구현합니다. 인프라스트럭처 영역 (jpa 를 사용한 경우 Repository) 은 구현 기술을 다룹니다. 다른 ORM 프레임워크나 외부 시스템과 연동을 지원합니다.  (계층구조) 아키텍처 4가지 영역을 사용할때 보편적으로 계층구조 아키텍처를 사용합니다. 이 아키텍처에서는 상위계층이 하위계층에 의존해야하지만 개발 편의성을 위해 유연하게 적용합니다.\n표현 v 응용 v 도메인 v 인프라스트럭처 DIP(의존 역전 원칙)  원래는 고수준 모듈(상위)이 저수준 모듈(하위)에 의존하던 구조를 반대로 저수준 모듈이 고수준 모듈의 의존하게 합니다 (예시 코드를 봐야 이해가 쉬운데, 핵심은 인터페이스 활용) 이렇게 하는 이유는 저수준 모듈의 변경(ex: mybatis - jpa 변경)이 고수준 모듈에 저수준 모듈 구현부의 교체와 테스트에서 편의성을 얻기 위함입니다. 고수준 인터페이스을 implements 해서 저수준 모듈을 구현해놓고, 고수준 모듈 구현시에 저수준 모듈의 기능은 고수준 인터페이스를 통해서 사용합니다. 고수준 인터페이스의 이름을 도메인(고수준)과 연관지어 작성해야합니다. 저수준(인프라)과 연관지어 인터페이스명을 지으면 저수준 모듈 구현부 변경시 인터페이스명도 함께 변경되어야하는 상황이 발생합니다. 그럼 해당 인터페이스를 사용하는 도메인 영역 내부까지 수정이 필요하게됩니다.  도메인 영역의 주요구성요소  Entity 고유 식별자를 갖는 객체로 자신의 라이프 사이클을 갖습니다. (ex) 주문, 회원, 상품, 혜택) 관제지향 DB 테이블과 동일하다고 여길 수 있는데. DB 테이블은 데이터 지향 이고, Entity 는 객체 지향입니다. 그래서 DB 테이블은 데이터만 가지고 있지만 Entity 객체는 데이터 이외에 여러 참조 객체(주문 엔터티는 배송지 정보 참조를 가짐)와 도메인 기능을 포함할 수 있습니다. Value 직관적인 이해할수 있도록 따로 생성한 속성 객체 또는 같은 개념을 같은 것들을 하나의 묶음 객체 입니다. case1) Money, OrderNo 등의 원시타입 변수 하나만 있는 class 를 생성하여 해당 원시타입 대신에 해당 class 참조 case2) Order 객체에서, 주문자 정보(Orderer) 관련 된 속성만 나누어서 Class 를 새로 생성하고 해당 class 를 참조  public class Orderer { private String name; private String email; } Aggregate 시스템이 커지면서 점점 복잡해지는 Entity 관계를 그룹 단위로 관리하는 개념입니다. 각 그룹에는 ROOT Entity 가 존재하고, 다른 그룹간에 접근은 ROOT Entity를 통해서만 접근이 가능도록합니다. (3장에 더 자세히설명됨) Repository Repository 는 Aggregate 단위로 도메인 객체를 DB 에 저장하고 조회하는 기능을 내부에 구현합니다. Repository 인터페이스는 도메인 영역에 속하도록 에그리거트와 연관지어 이름을 짓습니다. Domain Service 특정 엔터티에 속하지 않는 도메인 로직을 제공합니다. 할인금액계산 은 상품, 쿠폰, 회원등급, 구매금액등 다양한 Entity와 Value 를 필요로 하는데, 이러한 로직은 도메인 서비스에서 구현합니다.  인프라스트럭처 도메인 객체의 영속성 처리, 트랜잭션, smtp, rest client 등 다른영역에서 필요로 하는 orm 프레임워크, 구현기술, 보조기능을 지원합니다. 도메인 영역에서 생성한 인터페이스를 가지고 내부 구현을 하는게 시스템을 더 유연하게합니다.\n모듈 모듈 설계(패키지 구조 설계)에 정답은 없습니다. 위에 4가지 영역별로 패키지 구조를 분할할 수도 있고, 최상단에 에그리거트 단위로 먼저 패키지 분할후 그 하위에 계층에 따라 패키지를 분할할 수도 있습니다.\n","wordCount":"430","inLanguage":"en","datePublished":"2021-12-31T10:22:20+09:00","dateModified":"2021-12-31T10:22:20+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://keehyun2.github.io/posts/ddd-startch.2/"},"publisher":{"@type":"Organization","name":"keehyun2's note","logo":{"@type":"ImageObject","url":"https://keehyun2.github.io/favicon.ico"}}}</script>
+</head>
+<body id=top>
+<script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
+<header class=header>
+<nav class=nav>
+<div class=logo>
+<a href=https://keehyun2.github.io/ accesskey=h title="keehyun2's note (Alt + H)">keehyun2's note</a>
+<span class=logo-switches>
+<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+</button>
+</span>
+</div>
+<ul id=menu>
+<li>
+<a href=https://keehyun2.github.io/posts/ title="posts section">
+<span>posts</span>
+</a>
+</li>
+<li>
+<a href=https://keehyun2.github.io/works/ title=works>
+<span>works</span>
+</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=main>
+<article class=post-single>
+<header class=post-header>
+<h1 class=post-title>
+DDD START(ch.2)
+</h1>
+<div class=post-meta><span title="2021-12-31 10:22:20 +0900 +0900">December 31, 2021</span>
+</div>
+</header>
+<div class=post-content><h1 id=아키텍처>아키텍처<a hidden class=anchor aria-hidden=true href=#아키텍처>#</a></h1>
+<p><code>소프트웨어 아키텍처 에는 4가지 영역(계층)이 있습니다. (표현, 응용, 도메인, 인프라)</code></p>
+<ol>
+<li><strong>표현 영역</strong>(Controler)는 http request 와 response를 처리하는 계층입니다.</li>
+<li><strong>응용 영역</strong>(Service)는 내부 로직을 구현합니다. 로직을 직접 구현하기보단 도메인에 로직 구현을 위임합니다.</li>
+<li><strong>도메인 영역</strong>(Order, DTO, VO)은 도메인 모델을 구현하고, 도메인과 관련된 핵심 로직을 구현합니다.</li>
+<li><strong>인프라스트럭처 영역</strong> (jpa 를 사용한 경우 Repository) 은 구현 기술을 다룹니다. 다른 ORM 프레임워크나 외부 시스템과 연동을 지원합니다.</li>
+</ol>
+<h2 id=계층구조-아키텍처>(계층구조) 아키텍처<a hidden class=anchor aria-hidden=true href=#계층구조-아키텍처>#</a></h2>
+<p>4가지 영역을 사용할때 보편적으로 계층구조 아키텍처를 사용합니다. 이 아키텍처에서는 상위계층이 하위계층에 의존해야하지만 개발 편의성을 위해 <strong>유연하게</strong> 적용합니다.</p>
+<pre tabindex=0><code>표현
+  v
+응용
+  v
+도메인
+  v
+인프라스트럭처
+</code></pre><h1 id=dip의존-역전-원칙>DIP(의존 역전 원칙)<a hidden class=anchor aria-hidden=true href=#dip의존-역전-원칙>#</a></h1>
+<ul>
+<li>원래는 고수준 모듈(상위)이 저수준 모듈(하위)에 의존하던 구조를 반대로 저수준 모듈이 고수준 모듈의 의존하게 합니다 (예시 코드를 봐야 이해가 쉬운데, 핵심은 인터페이스 활용)</li>
+<li>이렇게 하는 이유는 저수준 모듈의 변경(ex: mybatis -> jpa 변경)이 고수준 모듈에 저수준 모듈 구현부의 교체와 테스트에서 편의성을 얻기 위함입니다.</li>
+<li><code>고수준 인터페이스</code>을 implements 해서 <code>저수준 모듈</code>을 구현해놓고, <code>고수준 모듈</code> 구현시에 저수준 모듈의 기능은 <code>고수준 인터페이스</code>를 통해서 사용합니다.</li>
+<li><code>고수준 인터페이스</code>의 이름을 도메인(고수준)과 연관지어 작성해야합니다. 저수준(인프라)과 연관지어 인터페이스명을 지으면 저수준 모듈 구현부 변경시 인터페이스명도 함께 변경되어야하는 상황이 발생합니다. 그럼 해당 인터페이스를 사용하는 도메인 영역 내부까지 수정이 필요하게됩니다.</li>
+</ul>
+<h1 id=도메인-영역의-주요구성요소>도메인 영역의 주요구성요소<a hidden class=anchor aria-hidden=true href=#도메인-영역의-주요구성요소>#</a></h1>
+<ol>
+<li>Entity
+고유 식별자를 갖는 객체로 자신의 라이프 사이클을 갖습니다. (ex) 주문, 회원, 상품, 혜택)
+<code>관제지향 DB 테이블</code>과 동일하다고 여길 수 있는데. <code>DB 테이블</code>은 데이터 지향 이고, Entity 는 객체 지향입니다. 그래서 <code>DB 테이블</code>은 데이터만 가지고 있지만 Entity 객체는 데이터 이외에 여러 참조 객체(주문 엔터티는 배송지 정보 참조를 가짐)와 도메인 기능을 포함할 수 있습니다.</li>
+<li>Value
+<code>직관적인 이해할수 있도록 따로 생성한 속성 객체</code> 또는 <code>같은 개념을 같은 것들을 하나의 묶음 객체</code> 입니다.
+case1) Money, OrderNo 등의 원시타입 변수 하나만 있는 class 를 생성하여 해당 원시타입 대신에 해당 class 참조
+case2) Order 객체에서, 주문자 정보(Orderer) 관련 된 속성만 나누어서 Class 를 새로 생성하고 해당 class 를 참조</li>
+</ol>
+<pre tabindex=0><code>public class Orderer {
+	private String name;
+	private String email;
+}
+</code></pre><ol start=3>
+<li>Aggregate
+시스템이 커지면서 점점 복잡해지는 Entity 관계를 그룹 단위로 관리하는 개념입니다. 각 그룹에는 ROOT Entity 가 존재하고, 다른 그룹간에 접근은 ROOT Entity를 통해서만 접근이 가능도록합니다. (3장에 더 자세히설명됨)</li>
+<li>Repository
+Repository 는 Aggregate 단위로 도메인 객체를 DB 에 저장하고 조회하는 기능을 내부에 구현합니다. Repository 인터페이스는 도메인 영역에 속하도록 에그리거트와 연관지어 이름을 짓습니다.</li>
+<li>Domain Service
+특정 엔터티에 속하지 않는 도메인 로직을 제공합니다. <code>할인금액계산</code> 은 상품, 쿠폰, 회원등급, 구매금액등 다양한 Entity와 Value 를 필요로 하는데, 이러한 로직은 도메인 서비스에서 구현합니다.</li>
+</ol>
+<h1 id=인프라스트럭처>인프라스트럭처<a hidden class=anchor aria-hidden=true href=#인프라스트럭처>#</a></h1>
+<p>도메인 객체의 영속성 처리, 트랜잭션, smtp, rest client 등 다른영역에서 필요로 하는 orm 프레임워크, 구현기술, 보조기능을 지원합니다. 도메인 영역에서 생성한 인터페이스를 가지고 내부 구현을 하는게 시스템을 더 유연하게합니다.</p>
+<h1 id=모듈>모듈<a hidden class=anchor aria-hidden=true href=#모듈>#</a></h1>
+<p>모듈 설계(패키지 구조 설계)에 정답은 없습니다. 위에 4가지 영역별로 패키지 구조를 분할할 수도 있고, 최상단에 에그리거트 단위로 먼저 패키지 분할후 그 하위에 계층에 따라 패키지를 분할할 수도 있습니다.</p>
+</div>
+<footer class=post-footer>
+</footer>
+</article>
+</main>
+<footer class=footer>
+<span>&copy; 2021 <a href=https://keehyun2.github.io/>keehyun2's note</a></span>
+<span>
+Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a>
+</span>
+</footer>
+<a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a>
+<script>let menu=document.getElementById('menu');menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
+<script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script>
+<script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
+</body>
+</html>
