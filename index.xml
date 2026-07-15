@@ -1,2 +1,70 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>keehyun2's note</title><link>https://keehyun2.github.io/</link><description>Recent content on keehyun2's note</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 31 May 2022 15:00:18 +0900</lastBuildDate><atom:link href="https://keehyun2.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Mac 단축키</title><link>https://keehyun2.github.io/posts/mac-%EB%8B%A8%EC%B6%95%ED%82%A4/</link><pubDate>Tue, 31 May 2022 15:00:18 +0900</pubDate><guid>https://keehyun2.github.io/posts/mac-%EB%8B%A8%EC%B6%95%ED%82%A4/</guid><description>mac 단축키 ctrl(^) + space : 한/영 win(⌘) + space : spotlight 검색 ⌥ + ↑ / ⌥ + ↓ : 선택영역 확대 / 축소 ctrl(^) + D : 한줄 복사 (커스텀 - ctrl(^) + ⌥ + ↓) ctrl(^) + Y : 한줄 삭제(커스텀 - ctrl(^) + D) win(⌘) + N : 새 파일 Caps Lock : 짧게 누르면 한/영 전환, 길게 누르면 Caps Lock win(⌘) + a : 전체 선택 win(⌘) + c : 복사하기 win(⌘) + v : 붙혀넣기 ctrl(^) + T : refactor 옵션 보기 ⇧ + ⌘ + A : action 검색 ⌥ + ⌘ + [ : vscode 에서 folding code ⇧ + ⌘ + 3 : 전체화면 스크린샷 ⇧ + ⌘ + 4 : 일부 캡처 ⇧ + ⌘ + 4 + space : 창 캡처 mac 기호 ^ : control ⌥ : option(alt) ⌘ : mac(win) ⇧ : shift</description></item><item><title>플러터 UI 입문 정리(ch.4)</title><link>https://keehyun2.github.io/posts/%ED%94%8C%EB%9F%AC%ED%84%B0-ui-%EC%9E%85%EB%AC%B8-%EC%A0%95%EB%A6%ACch.4/</link><pubDate>Fri, 14 Jan 2022 13:42:52 +0900</pubDate><guid>https://keehyun2.github.io/posts/%ED%94%8C%EB%9F%AC%ED%84%B0-ui-%EC%9E%85%EB%AC%B8-%EC%A0%95%EB%A6%ACch.4/</guid><description>4챕터에 나온 위젯 Scaffold - 기본 구조가 있는 도화지라고 여기면됩니다. SafeArea - 화면을 안전한 영역에 배치시킵니다. Column - 위젯을 세로로 배치하는 위젯 Row - 위젯을 가로로 배치하는 위젯 Padding - 테두리 영역 여백을 주고싶을 때 사용 Text - 텍스트 출력에 사용하는 위젯 Text(&amp;quot;Kids&amp;quot;, style: TextStyle(fontWeight: FontWeight.bold)) Spacer - Column, Row 사이 간격에 여백을 자동으로 할당합니다. Expanded - 위젯을 테두리 위젯까지 늘립니다. SizedBox - 여백을 주는 데 유용한 위젯입니다. (크기 수동) Image - jpg, png 등 이미지 출력에 사용하는 위젯 Image.</description></item><item><title>DDD START(ch.2)</title><link>https://keehyun2.github.io/posts/ddd-startch.2/</link><pubDate>Fri, 31 Dec 2021 10:22:20 +0900</pubDate><guid>https://keehyun2.github.io/posts/ddd-startch.2/</guid><description>아키텍처 소프트웨어 아키텍처 에는 4가지 영역(계층)이 있습니다. (표현, 응용, 도메인, 인프라)
-표현 영역(Controler)는 http request 와 response를 처리하는 계층입니다. 응용 영역(Service)는 내부 로직을 구현합니다. 로직을 직접 구현하기보단 도메인에 로직 구현을 위임합니다. 도메인 영역(Order, DTO, VO)은 도메인 모델을 구현하고, 도메인과 관련된 핵심 로직을 구현합니다. 인프라스트럭처 영역 (jpa 를 사용한 경우 Repository) 은 구현 기술을 다룹니다. 다른 ORM 프레임워크나 외부 시스템과 연동을 지원합니다. (계층구조) 아키텍처 4가지 영역을 사용할때 보편적으로 계층구조 아키텍처를 사용합니다.</description></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Dev Wiki</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>최근 10 건 on Dev Wiki</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>ide-shortcut-common-patterns</title>
+    <link>https://quartz.jzhao.xyz/concepts/ide-shortcut-common-patterns</link>
+    <guid>https://quartz.jzhao.xyz/concepts/ide-shortcut-common-patterns</guid>
+    <description><![CDATA[ IDE 단축키 공통 패턴 다양한 IDE(이클립스, VSCode 등)에서 발견되는 단축키 공통 패턴과 구조를 분석하고 종합한 문서입니다. 핵심 패턴 1. ]]></description>
+    <pubDate>Mon, 13 Jul 2026 00:32:48 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description><![CDATA[ 위키 인덱스 개발 (Development) linux-commands — Linux 필수 명령어 (파일, grep, find, 디스크, 프로세스) git-commands — Git 필수 명령어 (브랜치, 되돌리기, stash, submodule) docker-commands — Docker 필수 명령어 (컨테이너, 이미지, 네트워크) cmake-guide — CMake 빌드 가이드 (Debug/Release, 캐시 관리) java-debugging — Java 실행 및 디버깅 (JVM 옵션, jps, jstack, Maven/Gra... ]]></description>
+    <pubDate>Mon, 13 Jul 2026 00:32:48 GMT</pubDate>
+  </item><item>
+    <title>developers-cheatsheet</title>
+    <link>https://quartz.jzhao.xyz/sources/developers-cheatsheet</link>
+    <guid>https://quartz.jzhao.xyz/sources/developers-cheatsheet</guid>
+    <description><![CDATA[ 개발자 치트시트 개발자라면 의외로 이해를 못해서 검색하는 게 아니라, 기억할 필요가 없는 것들을 반복 검색하는 경우가 많습니다. 매번 검색하는 것 위주로 정리한 치트시트입니다. 1. ]]></description>
+    <pubDate>Mon, 13 Jul 2026 00:18:14 GMT</pubDate>
+  </item><item>
+    <title>eclipse-shortcuts</title>
+    <link>https://quartz.jzhao.xyz/sources/eclipse-shortcuts</link>
+    <guid>https://quartz.jzhao.xyz/sources/eclipse-shortcuts</guid>
+    <description><![CDATA[ 이클립스 단축키 가이드 태그 선택 단축키 HTML/XML 태그 쌍 선택 Alt+Shift+A 여는 태그와 닫는 태그를 동시에 선택 HTML/XML 에디터에서 사용 가능 커서가 태그 내부에 있을 때 동작 해당 단축키를 다시 누르면 선택 해제 (Toggle 기능) 더블 클릭 태그 이름을 더블 클릭하면 해당 태그 쌍 선택 &lt;div&gt;를 더블 클릭하면 여는 &lt;div&gt;와 닫는 &lt;/div&gt; 모두 선택 관련 단축키 선택 확장 Ctrl+Shift+→: 다음 단어 선택 Ctrl+Shift+←: 이전 단어 선택 Ctrl... ]]></description>
+    <pubDate>Mon, 13 Jul 2026 00:18:14 GMT</pubDate>
+  </item><item>
+    <title>vscode-shortcuts</title>
+    <link>https://quartz.jzhao.xyz/sources/vscode-shortcuts</link>
+    <guid>https://quartz.jzhao.xyz/sources/vscode-shortcuts</guid>
+    <description><![CDATA[ VSCode 단축키 가이드 태그 선택 단축키 HTML/XML 태그 쌍 선택 더블 클릭 태그 이름을 더블 클릭하면 해당 태그 쌍 선택 &lt;div&gt;를 더블 클릭하면 여는 &lt;div&gt;와 닫는 &lt;/div&gt; 모두 선택 가장 직관적인 방법 Alt+Shift+→ Emmet 기능과 함께 사용 가능 커서 위치에서 태그 쌍 확장 선택 반복 누르면 상위 태그로 선택 영역 확장 확장 프로그램 Auto Rename Tag: 여는 태그 수정 시 닫는 태그 자동 수정 Tag Auto Close: 자동으로 닫는 태그 생성 코드 정렬... ]]></description>
+    <pubDate>Mon, 13 Jul 2026 00:18:14 GMT</pubDate>
+  </item><item>
+    <title>oracle-sql</title>
+    <link>https://quartz.jzhao.xyz/summaries/database/oracle-sql</link>
+    <guid>https://quartz.jzhao.xyz/summaries/database/oracle-sql</guid>
+    <description><![CDATA[ Oracle SQL 필수 문법 DDL (데이터 정의) CREATE TABLE employees ( id NUMBER PRIMARY KEY, name VARCHAR2(100), salary NUMBER ); ALTER TABLE employees ADD department_id NUMBER; ALTER TABLE employees MODIFY salary NUMBER(10,2); DROP TABLE employees; 고급 조회 분석 함수 -- 행 번호 SELECT ROW_NUMBER() OVER (ORDER BY salary DES... ]]></description>
+    <pubDate>Mon, 13 Jul 2026 00:18:14 GMT</pubDate>
+  </item><item>
+    <title>cmake-guide</title>
+    <link>https://quartz.jzhao.xyz/summaries/development/cmake-guide</link>
+    <guid>https://quartz.jzhao.xyz/summaries/development/cmake-guide</guid>
+    <description><![CDATA[ CMake 빌드 가이드 기본 빌드 최신 방식 (권장) cmake -B build # build 디렉토리에 설정 생성 cmake --build build # 빌드 실행 전통적 방식 mkdir build &amp;&amp; cd build cmake . ]]></description>
+    <pubDate>Mon, 13 Jul 2026 00:18:14 GMT</pubDate>
+  </item><item>
+    <title>docker-commands</title>
+    <link>https://quartz.jzhao.xyz/summaries/development/docker-commands</link>
+    <guid>https://quartz.jzhao.xyz/summaries/development/docker-commands</guid>
+    <description><![CDATA[ Docker 필수 명령어 기본 명령어 컨테이너/이미지 관리 docker ps # 실행 중인 컨테이너 docker ps -a # 모든 컨테이너 docker images # 이미지 목록 docker build -t app . ]]></description>
+    <pubDate>Mon, 13 Jul 2026 00:18:14 GMT</pubDate>
+  </item><item>
+    <title>git-commands</title>
+    <link>https://quartz.jzhao.xyz/summaries/development/git-commands</link>
+    <guid>https://quartz.jzhao.xyz/summaries/development/git-commands</guid>
+    <description><![CDATA[ Git 필수 명령어 상태 확인 git status # 작업 디렉토리 상태 git diff # 변경 사항 보기 git diff staged # 스테이징된 변경 사항 git log # 커밋 히스토리 git log --oneline # 한 줄씩 히스토리 브랜치 관리 git branch # 브랜치 목록 git branch new # 새 브랜치 생성 git checkout dev # 브랜치 전환 git switch dev # 브랜치 전환 (최신 방식) git merge feature # 브랜치 병합 되돌리기 (중요!) restore vs r... ]]></description>
+    <pubDate>Mon, 13 Jul 2026 00:18:14 GMT</pubDate>
+  </item><item>
+    <title>java-debugging</title>
+    <link>https://quartz.jzhao.xyz/summaries/development/java-debugging</link>
+    <guid>https://quartz.jzhao.xyz/summaries/development/java-debugging</guid>
+    <description><![CDATA[ Java 실행 및 디버깅 환경 확인 java -version # Java 버전 javac -version # 컴파일러 버전 echo $JAVA_HOME # JAVA_HOME 경로 which java # Java 설치 위치 실행 JAR 실행 java -jar app.jar # 기본 실행 java -jar app.jar --server.port=8080 # 인자 전달 JVM 옵션 # 메모리 설정 java -Xms512m -Xmx2g -jar app.jar # GC 설정 java -XX:+UseG1GC -jar app.jar # 디버깅 ... ]]></description>
+    <pubDate>Mon, 13 Jul 2026 00:18:14 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
