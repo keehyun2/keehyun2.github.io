@@ -6,6 +6,12 @@
       <description>최근 10 건 on Dev Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>linux-commands</title>
+    <link>https://quartz.jzhao.xyz/summaries/development/linux-commands</link>
+    <guid>https://quartz.jzhao.xyz/summaries/development/linux-commands</guid>
+    <description><![CDATA[ Linux 필수 명령어 파일/디렉토리 기본 명령어 ls -al # 상세 목록 보기 pwd # 현재 경로 cd # 디렉토리 이동 mkdir -p # 하위 디렉토리까지 생성 cp -r # 디렉토리 복사 mv # 이동/이름 변경 rm -rf # 강제 삭제 tree # 디렉토리 구조 보기 심볼릭 링크 (ln) ln -s /path/to/original /path/to/link # 심볼릭 링크 생성 ln -s /absolute/path ./relative-link # 상대 경로로 링크 생성 ln -sf /new/target existing-... ]]></description>
+    <pubDate>Wed, 22 Jul 2026 01:22:20 GMT</pubDate>
+  </item><item>
     <title>index</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/summaries/development/cmake-guide</link>
     <guid>https://quartz.jzhao.xyz/summaries/development/cmake-guide</guid>
     <description><![CDATA[ CMake 빌드 가이드 기본 빌드 최신 방식 (권장) cmake -B build # build 디렉토리에 설정 생성 cmake --build build # 빌드 실행 전통적 방식 mkdir build &amp;&amp; cd build cmake . ]]></description>
-    <pubDate>Mon, 13 Jul 2026 00:18:14 GMT</pubDate>
-  </item><item>
-    <title>docker-commands</title>
-    <link>https://quartz.jzhao.xyz/summaries/development/docker-commands</link>
-    <guid>https://quartz.jzhao.xyz/summaries/development/docker-commands</guid>
-    <description><![CDATA[ Docker 필수 명령어 기본 명령어 컨테이너/이미지 관리 docker ps # 실행 중인 컨테이너 docker ps -a # 모든 컨테이너 docker images # 이미지 목록 docker build -t app . ]]></description>
     <pubDate>Mon, 13 Jul 2026 00:18:14 GMT</pubDate>
   </item>
     </channel>
