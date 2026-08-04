@@ -6,17 +6,53 @@
       <description>최근 10 건 on Dev Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>linux-commands</title>
-    <link>https://quartz.jzhao.xyz/summaries/development/linux-commands</link>
-    <guid>https://quartz.jzhao.xyz/summaries/development/linux-commands</guid>
-    <description><![CDATA[ Linux 필수 명령어 파일/디렉토리 기본 명령어 ls -al # 상세 목록 보기 pwd # 현재 경로 cd # 디렉토리 이동 mkdir -p # 하위 디렉토리까지 생성 cp -r # 디렉토리 복사 mv # 이동/이름 변경 rm -rf # 강제 삭제 tree # 디렉토리 구조 보기 심볼릭 링크 (ln) ln -s /path/to/original /path/to/link # 심볼릭 링크 생성 ln -s /absolute/path ./relative-link # 상대 경로로 링크 생성 ln -sf /new/target existing-... ]]></description>
-    <pubDate>Wed, 22 Jul 2026 01:22:20 GMT</pubDate>
+    <title>java-8-stream-map</title>
+    <link>https://quartz.jzhao.xyz/concepts/java-8-stream-map</link>
+    <guid>https://quartz.jzhao.xyz/concepts/java-8-stream-map</guid>
+    <description><![CDATA[ Java 8 Stream map 사용법 **Stream map()**은 Java 8에서 컬렉션 요소를 변환하는 핵심 메서드로, 함수형 프로그래밍 스타일의 데이터 처리를 제공합니다. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 00:40:40 GMT</pubDate>
+  </item><item>
+    <title>java-ehcache</title>
+    <link>https://quartz.jzhao.xyz/concepts/java-ehcache</link>
+    <guid>https://quartz.jzhao.xyz/concepts/java-ehcache</guid>
+    <description><![CDATA[ Java Ehcache 가이드 Ehcache는 Java 애플리케이션을 위한 강력한 캐싱 솔루션으로, 메모리, 디스크, 분산 캐싱을 지원합니다. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 00:40:40 GMT</pubDate>
+  </item><item>
+    <title>nfs-samba-server</title>
+    <link>https://quartz.jzhao.xyz/concepts/nfs-samba-server</link>
+    <guid>https://quartz.jzhao.xyz/concepts/nfs-samba-server</guid>
+    <description><![CDATA[ NFS 및 Samba 서버 NFS는 Linux/Unix 시스템 간 파일 공유를 위한 프로토콜이고, Samba는 Linux와 Windows 간 파일 공유를 위한 SMB/CIFS 프로토콜 구현입니다. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 00:40:40 GMT</pubDate>
+  </item><item>
+    <title>oracle-19c-time-format</title>
+    <link>https://quartz.jzhao.xyz/concepts/oracle-19c-time-format</link>
+    <guid>https://quartz.jzhao.xyz/concepts/oracle-19c-time-format</guid>
+    <description><![CDATA[ Oracle 19c 시간 포맷팅 Oracle TO_CHAR 함수와 시간 포맷 요소를 사용하여 다양한 시간 표현이 가능합니다. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 00:40:40 GMT</pubDate>
+  </item><item>
+    <title>powershell-commands</title>
+    <link>https://quartz.jzhao.xyz/concepts/powershell-commands</link>
+    <guid>https://quartz.jzhao.xyz/concepts/powershell-commands</guid>
+    <description><![CDATA[ PowerShell 명령어 PowerShell은 윈도우용 강력한 명령줄 셸과 스크립팅 언어로, 객체 파이프라인과 .NET 통합이 특징입니다. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 00:40:40 GMT</pubDate>
+  </item><item>
+    <title>windows-cmd-commands</title>
+    <link>https://quartz.jzhao.xyz/concepts/windows-cmd-commands</link>
+    <guid>https://quartz.jzhao.xyz/concepts/windows-cmd-commands</guid>
+    <description><![CDATA[ Windows CMD (명령 프롬프트) Windows CMD는 윈도우의 기본 명령줄 인터페이스로, 파일 관리, 시스템 제어, 네트워크 작업 등을 수행합니다. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 00:40:40 GMT</pubDate>
   </item><item>
     <title>index</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
     <description><![CDATA[ 위키 인덱스 개발 (Development) linux-commands — Linux 필수 명령어 (파일, grep, find, 디스크, 프로세스) git-commands — Git 필수 명령어 (브랜치, 되돌리기, stash, submodule) docker-commands — Docker 필수 명령어 (컨테이너, 이미지, 네트워크) cmake-guide — CMake 빌드 가이드 (Debug/Release, 캐시 관리) java-debugging — Java 실행 및 디버깅 (JVM 옵션, jps, jstack, Maven/Gra... ]]></description>
-    <pubDate>Wed, 15 Jul 2026 06:01:30 GMT</pubDate>
+    <pubDate>Tue, 04 Aug 2026 00:40:40 GMT</pubDate>
+  </item><item>
+    <title>linux-commands</title>
+    <link>https://quartz.jzhao.xyz/summaries/development/linux-commands</link>
+    <guid>https://quartz.jzhao.xyz/summaries/development/linux-commands</guid>
+    <description><![CDATA[ Linux 필수 명령어 파일/디렉토리 기본 명령어 ls -al # 상세 목록 보기 pwd # 현재 경로 cd # 디렉토리 이동 mkdir -p # 하위 디렉토리까지 생성 cp -r # 디렉토리 복사 mv # 이동/이름 변경 rm -rf # 강제 삭제 tree # 디렉토리 구조 보기 심볼릭 링크 (ln) ln -s /path/to/original /path/to/link # 심볼릭 링크 생성 ln -s /absolute/path ./relative-link # 상대 경로로 링크 생성 ln -sf /new/target existing-... ]]></description>
+    <pubDate>Wed, 22 Jul 2026 01:22:20 GMT</pubDate>
   </item><item>
     <title>java-nio-file-operations</title>
     <link>https://quartz.jzhao.xyz/sources/java-nio-file-operations</link>
@@ -29,42 +65,6 @@
     <guid>https://quartz.jzhao.xyz/summaries/java-nio-file-operations</guid>
     <description><![CDATA[ Java NIO 파일 작업 Java NIO 파일 I/O 작업을 위한 java.nio.file.Path와 java.nio.file.Files API 사용 가이드 핵심 개념 Path 생성과 해결 Path 생성 메서드: Paths.get(&quot;path/to/file&quot;) — Java 7+ Path.of(&quot;path/to/file&quot;) — Java 11+ (Paths.get()의 축약형) 일반적인 Path 작업: Path p1 = Paths.get(&quot;some/folder/file.txt&quot;); P... ]]></description>
     <pubDate>Wed, 15 Jul 2026 06:01:30 GMT</pubDate>
-  </item><item>
-    <title>ide-shortcut-common-patterns</title>
-    <link>https://quartz.jzhao.xyz/concepts/ide-shortcut-common-patterns</link>
-    <guid>https://quartz.jzhao.xyz/concepts/ide-shortcut-common-patterns</guid>
-    <description><![CDATA[ IDE 단축키 공통 패턴 다양한 IDE(이클립스, VSCode 등)에서 발견되는 단축키 공통 패턴과 구조를 분석하고 종합한 문서입니다. 핵심 패턴 1. ]]></description>
-    <pubDate>Mon, 13 Jul 2026 00:32:48 GMT</pubDate>
-  </item><item>
-    <title>developers-cheatsheet</title>
-    <link>https://quartz.jzhao.xyz/sources/developers-cheatsheet</link>
-    <guid>https://quartz.jzhao.xyz/sources/developers-cheatsheet</guid>
-    <description><![CDATA[ 개발자 치트시트 개발자라면 의외로 이해를 못해서 검색하는 게 아니라, 기억할 필요가 없는 것들을 반복 검색하는 경우가 많습니다. 매번 검색하는 것 위주로 정리한 치트시트입니다. 1. ]]></description>
-    <pubDate>Mon, 13 Jul 2026 00:18:14 GMT</pubDate>
-  </item><item>
-    <title>eclipse-shortcuts</title>
-    <link>https://quartz.jzhao.xyz/sources/eclipse-shortcuts</link>
-    <guid>https://quartz.jzhao.xyz/sources/eclipse-shortcuts</guid>
-    <description><![CDATA[ 이클립스 단축키 가이드 태그 선택 단축키 HTML/XML 태그 쌍 선택 Alt+Shift+A 여는 태그와 닫는 태그를 동시에 선택 HTML/XML 에디터에서 사용 가능 커서가 태그 내부에 있을 때 동작 해당 단축키를 다시 누르면 선택 해제 (Toggle 기능) 더블 클릭 태그 이름을 더블 클릭하면 해당 태그 쌍 선택 &lt;div&gt;를 더블 클릭하면 여는 &lt;div&gt;와 닫는 &lt;/div&gt; 모두 선택 관련 단축키 선택 확장 Ctrl+Shift+→: 다음 단어 선택 Ctrl+Shift+←: 이전 단어 선택 Ctrl... ]]></description>
-    <pubDate>Mon, 13 Jul 2026 00:18:14 GMT</pubDate>
-  </item><item>
-    <title>vscode-shortcuts</title>
-    <link>https://quartz.jzhao.xyz/sources/vscode-shortcuts</link>
-    <guid>https://quartz.jzhao.xyz/sources/vscode-shortcuts</guid>
-    <description><![CDATA[ VSCode 단축키 가이드 태그 선택 단축키 HTML/XML 태그 쌍 선택 더블 클릭 태그 이름을 더블 클릭하면 해당 태그 쌍 선택 &lt;div&gt;를 더블 클릭하면 여는 &lt;div&gt;와 닫는 &lt;/div&gt; 모두 선택 가장 직관적인 방법 Alt+Shift+→ Emmet 기능과 함께 사용 가능 커서 위치에서 태그 쌍 확장 선택 반복 누르면 상위 태그로 선택 영역 확장 확장 프로그램 Auto Rename Tag: 여는 태그 수정 시 닫는 태그 자동 수정 Tag Auto Close: 자동으로 닫는 태그 생성 코드 정렬... ]]></description>
-    <pubDate>Mon, 13 Jul 2026 00:18:14 GMT</pubDate>
-  </item><item>
-    <title>oracle-sql</title>
-    <link>https://quartz.jzhao.xyz/summaries/database/oracle-sql</link>
-    <guid>https://quartz.jzhao.xyz/summaries/database/oracle-sql</guid>
-    <description><![CDATA[ Oracle SQL 필수 문법 DDL (데이터 정의) CREATE TABLE employees ( id NUMBER PRIMARY KEY, name VARCHAR2(100), salary NUMBER ); ALTER TABLE employees ADD department_id NUMBER; ALTER TABLE employees MODIFY salary NUMBER(10,2); DROP TABLE employees; 고급 조회 분석 함수 -- 행 번호 SELECT ROW_NUMBER() OVER (ORDER BY salary DES... ]]></description>
-    <pubDate>Mon, 13 Jul 2026 00:18:14 GMT</pubDate>
-  </item><item>
-    <title>cmake-guide</title>
-    <link>https://quartz.jzhao.xyz/summaries/development/cmake-guide</link>
-    <guid>https://quartz.jzhao.xyz/summaries/development/cmake-guide</guid>
-    <description><![CDATA[ CMake 빌드 가이드 기본 빌드 최신 방식 (권장) cmake -B build # build 디렉토리에 설정 생성 cmake --build build # 빌드 실행 전통적 방식 mkdir build &amp;&amp; cd build cmake . ]]></description>
-    <pubDate>Mon, 13 Jul 2026 00:18:14 GMT</pubDate>
   </item>
     </channel>
   </rss>
