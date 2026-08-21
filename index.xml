@@ -6,11 +6,17 @@
       <description>최근 10 건 on Dev Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>eclipse-plugin-development</title>
+    <link>https://quartz.jzhao.xyz/concepts/eclipse-plugin-development</link>
+    <guid>https://quartz.jzhao.xyz/concepts/eclipse-plugin-development</guid>
+    <description><![CDATA[ 이클립스 플러그인 개발 기초 **이클립스 플러그인(Plug-in)**은 이클립스 IDE와 RCP 애플리케이션의 기능 확장 단위로, OSGi 번들 형태의 JAR입니다. 이클립스 자체도 수백 개의 플러그인 조합으로 구성되어 있습니다. ]]></description>
+    <pubDate>Fri, 21 Aug 2026 00:28:35 GMT</pubDate>
+  </item><item>
     <title>index</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
     <description><![CDATA[ 위키 인덱스 개발 (Development) linux-commands — Linux 필수 명령어 (파일, grep, find, 디스크, 프로세스) git-commands — Git 필수 명령어 (브랜치, 되돌리기, stash, submodule) docker-commands — Docker 필수 명령어 (컨테이너, 이미지, 네트워크) cmake-guide — CMake 빌드 가이드 (Debug/Release, 캐시 관리) java-debugging — Java 실행 및 디버깅 (JVM 옵션, jps, jstack, Maven/Gra... ]]></description>
-    <pubDate>Tue, 04 Aug 2026 00:46:43 GMT</pubDate>
+    <pubDate>Fri, 21 Aug 2026 00:28:35 GMT</pubDate>
   </item><item>
     <title>java-8-stream-map</title>
     <link>https://quartz.jzhao.xyz/concepts/java-8-stream-map</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/sources/java-nio-file-operations</link>
     <guid>https://quartz.jzhao.xyz/sources/java-nio-file-operations</guid>
     <description><![CDATA[ Java NIO File Operations Comprehensive guide to Java NIO file I/O operations using java.nio.file.Path and java.nio.file.Files APIs. ]]></description>
-    <pubDate>Wed, 15 Jul 2026 06:01:30 GMT</pubDate>
-  </item><item>
-    <title>java-nio-file-operations</title>
-    <link>https://quartz.jzhao.xyz/summaries/java-nio-file-operations</link>
-    <guid>https://quartz.jzhao.xyz/summaries/java-nio-file-operations</guid>
-    <description><![CDATA[ Java NIO 파일 작업 Java NIO 파일 I/O 작업을 위한 java.nio.file.Path와 java.nio.file.Files API 사용 가이드 핵심 개념 Path 생성과 해결 Path 생성 메서드: Paths.get(&quot;path/to/file&quot;) — Java 7+ Path.of(&quot;path/to/file&quot;) — Java 11+ (Paths.get()의 축약형) 일반적인 Path 작업: Path p1 = Paths.get(&quot;some/folder/file.txt&quot;); P... ]]></description>
     <pubDate>Wed, 15 Jul 2026 06:01:30 GMT</pubDate>
   </item>
     </channel>

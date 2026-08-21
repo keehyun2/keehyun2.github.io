@@ -1,4 +1,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://quartz.jzhao.xyz/concepts/eclipse-plugin-development</loc>
+    <lastmod>2026-08-21T00:28:35.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/concepts/ide-shortcut-common-patterns</loc>
     <lastmod>2026-07-13T00:32:48.000Z</lastmod>
   </url><url>
@@ -21,7 +24,7 @@
     <lastmod>2026-08-04T00:40:40.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/</loc>
-    <lastmod>2026-08-04T00:46:43.000Z</lastmod>
+    <lastmod>2026-08-21T00:28:35.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/sources/developers-cheatsheet</loc>
     <lastmod>2026-07-13T00:18:14.000Z</lastmod>
