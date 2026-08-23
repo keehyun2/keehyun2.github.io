@@ -6,65 +6,65 @@
       <description>최근 10 건 on Dev Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>eclipse-plugin-development</title>
-    <link>https://quartz.jzhao.xyz/concepts/eclipse-plugin-development</link>
-    <guid>https://quartz.jzhao.xyz/concepts/eclipse-plugin-development</guid>
-    <description><![CDATA[ 이클립스 플러그인 개발 기초 **이클립스 플러그인(Plug-in)**은 이클립스 IDE와 RCP 애플리케이션의 기능 확장 단위로, OSGi 번들 형태의 JAR입니다. 이클립스 자체도 수백 개의 플러그인 조합으로 구성되어 있습니다. ]]></description>
-    <pubDate>Fri, 21 Aug 2026 00:28:35 GMT</pubDate>
+    <title>algorithm-coding-mistakes</title>
+    <link>https://quartz.jzhao.xyz/concepts/algorithm-coding-mistakes</link>
+    <guid>https://quartz.jzhao.xyz/concepts/algorithm-coding-mistakes</guid>
+    <description><![CDATA[ 문제 접근 방법 및 실수 줄이기 알고리즘 문제 해결 전략 책에서 앞부분 개인적으로 요약 정리해 보았습니다. 접근 방법 무식하게 풀 수 있는지 확인합니다. ]]></description>
+    <pubDate>Sun, 23 Aug 2026 03:03:39 GMT</pubDate>
   </item><item>
-    <title>index</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description><![CDATA[ 위키 인덱스 개발 (Development) linux-commands — Linux 필수 명령어 (파일, grep, find, 디스크, 프로세스) git-commands — Git 필수 명령어 (브랜치, 되돌리기, stash, submodule) docker-commands — Docker 필수 명령어 (컨테이너, 이미지, 네트워크) cmake-guide — CMake 빌드 가이드 (Debug/Release, 캐시 관리) java-debugging — Java 실행 및 디버깅 (JVM 옵션, jps, jstack, Maven/Gra... ]]></description>
-    <pubDate>Fri, 21 Aug 2026 00:28:35 GMT</pubDate>
+    <title>binary-search-tree</title>
+    <link>https://quartz.jzhao.xyz/concepts/binary-search-tree</link>
+    <guid>https://quartz.jzhao.xyz/concepts/binary-search-tree</guid>
+    <description><![CDATA[ Binary Search Tree, BST (이진 탐색 트리) 이진 트리에서는 하나의 Node 가 1개의 key(data) 와 2개의 자식 node 를 가리키는 link(left,right) 를 가지고있습니다. ]]></description>
+    <pubDate>Sun, 23 Aug 2026 03:03:39 GMT</pubDate>
   </item><item>
-    <title>java-8-stream-map</title>
-    <link>https://quartz.jzhao.xyz/concepts/java-8-stream-map</link>
-    <guid>https://quartz.jzhao.xyz/concepts/java-8-stream-map</guid>
-    <description><![CDATA[ Java 8 Stream map 사용법 **Stream map()**은 Java 8에서 컬렉션 요소를 변환하는 핵심 메서드로, 함수형 프로그래밍 스타일의 데이터 처리를 제공합니다. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 00:40:40 GMT</pubDate>
+    <title>binary-tree</title>
+    <link>https://quartz.jzhao.xyz/concepts/binary-tree</link>
+    <guid>https://quartz.jzhao.xyz/concepts/binary-tree</guid>
+    <description><![CDATA[ Tree(트리)와 Binary Tree(이진 트리) Tree(트리) 트리는 어떤 속성을 만족하는 node(노드)와 방향 간선의 집합입니다. 또한, 하나의 노드가 root 노드를 가리키는 사이클 없는 그래프로 정의할 수 있습니다. ]]></description>
+    <pubDate>Sun, 23 Aug 2026 03:03:39 GMT</pubDate>
   </item><item>
-    <title>java-ehcache</title>
-    <link>https://quartz.jzhao.xyz/concepts/java-ehcache</link>
-    <guid>https://quartz.jzhao.xyz/concepts/java-ehcache</guid>
-    <description><![CDATA[ Java Ehcache 가이드 Ehcache는 Java 애플리케이션을 위한 강력한 캐싱 솔루션으로, 메모리, 디스크, 분산 캐싱을 지원합니다. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 00:40:40 GMT</pubDate>
+    <title>bitmask</title>
+    <link>https://quartz.jzhao.xyz/concepts/bitmask</link>
+    <guid>https://quartz.jzhao.xyz/concepts/bitmask</guid>
+    <description><![CDATA[ BitMask(비트마스크) 비트마스크란 정수의 이진수 표현을 자료구조로 사용하는 기법입니다. 부호없는 N비트 정수형 변수는 N자리의 이진수로 사용할 수 있습니다. 이때 각 비트가 표현하는 값은 2^0 부터 2^k-1 까지입니다. ]]></description>
+    <pubDate>Sun, 23 Aug 2026 03:03:39 GMT</pubDate>
   </item><item>
-    <title>nfs-samba-server</title>
-    <link>https://quartz.jzhao.xyz/concepts/nfs-samba-server</link>
-    <guid>https://quartz.jzhao.xyz/concepts/nfs-samba-server</guid>
-    <description><![CDATA[ NFS 및 Samba 서버 NFS는 Linux/Unix 시스템 간 파일 공유를 위한 프로토콜이고, Samba는 Linux와 Windows 간 파일 공유를 위한 SMB/CIFS 프로토콜 구현입니다. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 00:40:40 GMT</pubDate>
+    <title>coding-test-language-basics</title>
+    <link>https://quartz.jzhao.xyz/concepts/coding-test-language-basics</link>
+    <guid>https://quartz.jzhao.xyz/concepts/coding-test-language-basics</guid>
+    <description><![CDATA[ 코딩 테스트 언어별 기본 문법 (입출력, 반복문, 조건문) 같은 문제를 c, c++, java, python, c#, nodejs 로 각각 푼 예제 모음입니다. 언어별 입출력 방식과 반복문·조건문 차이를 한눈에 비교할 수 있습니다. ]]></description>
+    <pubDate>Sun, 23 Aug 2026 03:03:39 GMT</pubDate>
   </item><item>
-    <title>oracle-19c-time-format</title>
-    <link>https://quartz.jzhao.xyz/concepts/oracle-19c-time-format</link>
-    <guid>https://quartz.jzhao.xyz/concepts/oracle-19c-time-format</guid>
-    <description><![CDATA[ Oracle 19c 시간 포맷팅 Oracle TO_CHAR 함수와 시간 포맷 요소를 사용하여 다양한 시간 표현이 가능합니다. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 00:40:40 GMT</pubDate>
+    <title>docker-usage</title>
+    <link>https://quartz.jzhao.xyz/concepts/docker-usage</link>
+    <guid>https://quartz.jzhao.xyz/concepts/docker-usage</guid>
+    <description><![CDATA[ Docker 사용법 linux에서 container 간 격리 하여 가상화 비슷한 환경을 구성한 도구를 Docker 라고 합니다. hub.docker.com/ 에서 repository 들을 찾아볼 수 있습니다. 2018년에 작성된 문서입니다. ]]></description>
+    <pubDate>Sun, 23 Aug 2026 03:03:39 GMT</pubDate>
   </item><item>
-    <title>powershell-commands</title>
-    <link>https://quartz.jzhao.xyz/concepts/powershell-commands</link>
-    <guid>https://quartz.jzhao.xyz/concepts/powershell-commands</guid>
-    <description><![CDATA[ PowerShell 명령어 PowerShell은 윈도우용 강력한 명령줄 셸과 스크립팅 언어로, 객체 파이프라인과 .NET 통합이 특징입니다. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 00:40:40 GMT</pubDate>
+    <title>gcd-lcm-euclidean</title>
+    <link>https://quartz.jzhao.xyz/concepts/gcd-lcm-euclidean</link>
+    <guid>https://quartz.jzhao.xyz/concepts/gcd-lcm-euclidean</guid>
+    <description><![CDATA[ 최대공약수·최소공배수 (유클리드 호제법) 유클리드 호제법 2개의 수의 최대 공약수를 계산할 때 큰 수(a)를 작은 수(b)로 나누고, 나머지(r)가 0이 아니면 **나누었던 수(b)**를 나머지(r)로 다시 나누고 나머지가 0이 될때까지 반복합니다. ]]></description>
+    <pubDate>Sun, 23 Aug 2026 03:03:39 GMT</pubDate>
   </item><item>
-    <title>windows-cmd-commands</title>
-    <link>https://quartz.jzhao.xyz/concepts/windows-cmd-commands</link>
-    <guid>https://quartz.jzhao.xyz/concepts/windows-cmd-commands</guid>
-    <description><![CDATA[ Windows CMD (명령 프롬프트) Windows CMD는 윈도우의 기본 명령줄 인터페이스로, 파일 관리, 시스템 제어, 네트워크 작업 등을 수행합니다. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 00:40:40 GMT</pubDate>
+    <title>heap-priority-queue</title>
+    <link>https://quartz.jzhao.xyz/concepts/heap-priority-queue</link>
+    <guid>https://quartz.jzhao.xyz/concepts/heap-priority-queue</guid>
+    <description><![CDATA[ Heap(히프) Heap 은 root 가 최대값인 max-heap, 최소값인 min-heap이 있는데 다른 언급이 없으면 max-heap 을 의미합니다. ]]></description>
+    <pubDate>Sun, 23 Aug 2026 03:03:39 GMT</pubDate>
   </item><item>
-    <title>linux-commands</title>
-    <link>https://quartz.jzhao.xyz/summaries/development/linux-commands</link>
-    <guid>https://quartz.jzhao.xyz/summaries/development/linux-commands</guid>
-    <description><![CDATA[ Linux 필수 명령어 파일/디렉토리 기본 명령어 ls -al # 상세 목록 보기 pwd # 현재 경로 cd # 디렉토리 이동 mkdir -p # 하위 디렉토리까지 생성 cp -r # 디렉토리 복사 mv # 이동/이름 변경 rm -rf # 강제 삭제 tree # 디렉토리 구조 보기 심볼릭 링크 (ln) ln -s /path/to/original /path/to/link # 심볼릭 링크 생성 ln -s /absolute/path ./relative-link # 상대 경로로 링크 생성 ln -sf /new/target existing-... ]]></description>
-    <pubDate>Wed, 22 Jul 2026 01:22:20 GMT</pubDate>
+    <title>java-json-parsing</title>
+    <link>https://quartz.jzhao.xyz/concepts/java-json-parsing</link>
+    <guid>https://quartz.jzhao.xyz/concepts/java-json-parsing</guid>
+    <description><![CDATA[ Json Data Parse in java(Client) gson java library 를 활용하여 json 데이터를 읽어와서 활용하고 했는데, spring 에 RestTemplate 을 사용하여도 될것 같습니다. ]]></description>
+    <pubDate>Sun, 23 Aug 2026 03:03:39 GMT</pubDate>
   </item><item>
-    <title>java-nio-file-operations</title>
-    <link>https://quartz.jzhao.xyz/sources/java-nio-file-operations</link>
-    <guid>https://quartz.jzhao.xyz/sources/java-nio-file-operations</guid>
-    <description><![CDATA[ Java NIO File Operations Comprehensive guide to Java NIO file I/O operations using java.nio.file.Path and java.nio.file.Files APIs. ]]></description>
-    <pubDate>Wed, 15 Jul 2026 06:01:30 GMT</pubDate>
+    <title>linked-list-stack-queue</title>
+    <link>https://quartz.jzhao.xyz/concepts/linked-list-stack-queue</link>
+    <guid>https://quartz.jzhao.xyz/concepts/linked-list-stack-queue</guid>
+    <description><![CDATA[ Linked List(연결리스트) 선형 자료구조(list)는 배열로 구현하는 방법과 여러 객체(Node) 생성하고, 포인터로 연결하여 구현하는 방법이 있습니다. ]]></description>
+    <pubDate>Sun, 23 Aug 2026 03:03:39 GMT</pubDate>
   </item>
     </channel>
   </rss>
