@@ -10,61 +10,61 @@
     <link>https://quartz.jzhao.xyz/concepts/algorithm/algorithm-coding-mistakes</link>
     <guid>https://quartz.jzhao.xyz/concepts/algorithm/algorithm-coding-mistakes</guid>
     <description><![CDATA[ 문제 접근 방법 및 실수 줄이기 알고리즘 문제 해결 전략 책에서 앞부분 개인적으로 요약 정리해 보았습니다. 접근 방법 무식하게 풀 수 있는지 확인합니다. ]]></description>
-    <pubDate>Mon, 24 Aug 2026 02:05:50 GMT</pubDate>
+    <pubDate>Mon, 24 Aug 2026 04:52:41 GMT</pubDate>
   </item><item>
     <title>이진 탐색 트리 (BST)</title>
     <link>https://quartz.jzhao.xyz/concepts/algorithm/binary-search-tree</link>
     <guid>https://quartz.jzhao.xyz/concepts/algorithm/binary-search-tree</guid>
     <description><![CDATA[ Binary Search Tree, BST (이진 탐색 트리) 이진 트리에서는 하나의 Node 가 1개의 key(data) 와 2개의 자식 node 를 가리키는 link(left,right) 를 가지고있습니다. ]]></description>
-    <pubDate>Mon, 24 Aug 2026 02:05:50 GMT</pubDate>
+    <pubDate>Mon, 24 Aug 2026 04:52:41 GMT</pubDate>
   </item><item>
     <title>트리와 이진 트리</title>
     <link>https://quartz.jzhao.xyz/concepts/algorithm/binary-tree</link>
     <guid>https://quartz.jzhao.xyz/concepts/algorithm/binary-tree</guid>
     <description><![CDATA[ Tree(트리)와 Binary Tree(이진 트리) Tree(트리) 트리는 어떤 속성을 만족하는 node(노드)와 방향 간선의 집합입니다. 또한, 하나의 노드가 root 노드를 가리키는 사이클 없는 그래프로 정의할 수 있습니다. ]]></description>
-    <pubDate>Mon, 24 Aug 2026 02:05:50 GMT</pubDate>
+    <pubDate>Mon, 24 Aug 2026 04:52:41 GMT</pubDate>
   </item><item>
     <title>비트마스크</title>
     <link>https://quartz.jzhao.xyz/concepts/algorithm/bitmask</link>
     <guid>https://quartz.jzhao.xyz/concepts/algorithm/bitmask</guid>
-    <description><![CDATA[ BitMask(비트마스크) 비트마스크란 정수의 이진수 표현을 자료구조로 사용하는 기법입니다. 부호없는 N비트 정수형 변수는 N자리의 이진수로 사용할 수 있습니다. 이때 각 비트가 표현하는 값은 2^0 부터 2^k-1 까지입니다. ]]></description>
-    <pubDate>Mon, 24 Aug 2026 02:05:50 GMT</pubDate>
+    <description><![CDATA[ BitMask(비트마스크) 비트마스크란 정수의 이진수 표현을 자료구조로 사용하는 기법입니다. 부호없는 N비트 정수형 변수는 N자리의 이진수로 사용할 수 있습니다. 이때 각 비트가 표현하는 값은 2^0 부터 2^(N-1) 까지입니다. ]]></description>
+    <pubDate>Mon, 24 Aug 2026 04:52:41 GMT</pubDate>
   </item><item>
     <title>코딩 테스트 언어별 기본 문법</title>
     <link>https://quartz.jzhao.xyz/concepts/algorithm/coding-test-language-basics</link>
     <guid>https://quartz.jzhao.xyz/concepts/algorithm/coding-test-language-basics</guid>
     <description><![CDATA[ 코딩 테스트 언어별 기본 문법 (입출력, 반복문, 조건문) 같은 문제를 c, c++, java, python, c#, nodejs 로 각각 푼 예제 모음입니다. 언어별 입출력 방식과 반복문·조건문 차이를 한눈에 비교할 수 있습니다. ]]></description>
-    <pubDate>Mon, 24 Aug 2026 02:05:50 GMT</pubDate>
+    <pubDate>Mon, 24 Aug 2026 04:52:41 GMT</pubDate>
   </item><item>
     <title>최대공약수·최소공배수 (유클리드 호제법)</title>
     <link>https://quartz.jzhao.xyz/concepts/algorithm/gcd-lcm-euclidean</link>
     <guid>https://quartz.jzhao.xyz/concepts/algorithm/gcd-lcm-euclidean</guid>
     <description><![CDATA[ 최대공약수·최소공배수 (유클리드 호제법) 유클리드 호제법 2개의 수의 최대 공약수를 계산할 때 큰 수(a)를 작은 수(b)로 나누고, 나머지(r)가 0이 아니면 **나누었던 수(b)**를 나머지(r)로 다시 나누고 나머지가 0이 될때까지 반복합니다. ]]></description>
-    <pubDate>Mon, 24 Aug 2026 02:05:50 GMT</pubDate>
+    <pubDate>Mon, 24 Aug 2026 04:52:41 GMT</pubDate>
   </item><item>
     <title>힙과 우선순위 큐</title>
     <link>https://quartz.jzhao.xyz/concepts/algorithm/heap-priority-queue</link>
     <guid>https://quartz.jzhao.xyz/concepts/algorithm/heap-priority-queue</guid>
     <description><![CDATA[ Heap(히프) Heap 은 root 가 최대값인 max-heap, 최소값인 min-heap이 있는데 다른 언급이 없으면 max-heap 을 의미합니다. ]]></description>
-    <pubDate>Mon, 24 Aug 2026 02:05:50 GMT</pubDate>
+    <pubDate>Mon, 24 Aug 2026 04:52:41 GMT</pubDate>
   </item><item>
     <title>연결리스트 · 스택 · 큐</title>
     <link>https://quartz.jzhao.xyz/concepts/algorithm/linked-list-stack-queue</link>
     <guid>https://quartz.jzhao.xyz/concepts/algorithm/linked-list-stack-queue</guid>
     <description><![CDATA[ Linked List(연결리스트) 선형 자료구조(list)는 배열로 구현하는 방법과 여러 객체(Node) 생성하고, 포인터로 연결하여 구현하는 방법이 있습니다. ]]></description>
-    <pubDate>Mon, 24 Aug 2026 02:05:50 GMT</pubDate>
+    <pubDate>Mon, 24 Aug 2026 04:52:41 GMT</pubDate>
   </item><item>
     <title>정렬 알고리즘 총정리</title>
     <link>https://quartz.jzhao.xyz/concepts/algorithm/sorting-algorithms</link>
     <guid>https://quartz.jzhao.xyz/concepts/algorithm/sorting-algorithms</guid>
     <description><![CDATA[ Sort Algorithm(정렬 알고리즘) - Java 여러 가지 데이터 타입 및 자료구조가 있지만, 알고리즘에 집중하기 위해 정수(int) 배열을 오름차순으로 정렬하는 방식으로 설명하겠습니다. 각각의 정렬 알고리즘은 특정 환경에 에서 최적의 성능을 발휘합니다. ]]></description>
-    <pubDate>Mon, 24 Aug 2026 02:05:50 GMT</pubDate>
+    <pubDate>Mon, 24 Aug 2026 04:52:41 GMT</pubDate>
   </item><item>
     <title>Oracle 19c 시간 포맷팅</title>
     <link>https://quartz.jzhao.xyz/concepts/database/oracle-19c-time-format</link>
     <guid>https://quartz.jzhao.xyz/concepts/database/oracle-19c-time-format</guid>
     <description><![CDATA[ Oracle 19c 시간 포맷팅 Oracle TO_CHAR 함수와 시간 포맷 요소를 사용하여 다양한 시간 표현이 가능합니다. ]]></description>
-    <pubDate>Mon, 24 Aug 2026 02:05:50 GMT</pubDate>
+    <pubDate>Mon, 24 Aug 2026 04:52:41 GMT</pubDate>
   </item>
     </channel>
   </rss>
