@@ -35,6 +35,9 @@
     <loc>https://quartz.jzhao.xyz/concepts/devops/nfs-samba-server</loc>
     <lastmod>2026-08-24T04:52:41.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/devops/vip-ha-load-balancing</loc>
+    <lastmod>2026-10-01T09:18:26.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/concepts/ide/eclipse-plugin-development</loc>
     <lastmod>2026-08-24T02:05:50.000Z</lastmod>
   </url><url>
@@ -69,7 +72,7 @@
     <lastmod>2026-09-14T08:23:47.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/</loc>
-    <lastmod>2026-09-14T08:23:47.000Z</lastmod>
+    <lastmod>2026-10-01T09:18:26.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/sources/developers-cheatsheet</loc>
     <lastmod>2026-08-24T02:05:50.000Z</lastmod>
