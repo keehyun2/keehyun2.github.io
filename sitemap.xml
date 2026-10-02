@@ -50,8 +50,11 @@
     <loc>https://quartz.jzhao.xyz/concepts/java/java-ehcache</loc>
     <lastmod>2026-10-02T01:32:49.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/concepts/java/java-functional-interface-generics</loc>
-    <lastmod>2026-10-02T01:32:49.000Z</lastmod>
+    <loc>https://quartz.jzhao.xyz/concepts/java/java-functional-interface</loc>
+    <lastmod>2026-10-02T02:11:49.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/java/java-generics</loc>
+    <lastmod>2026-10-02T02:11:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/concepts/java/java-json-parsing</loc>
     <lastmod>2026-10-02T01:32:49.000Z</lastmod>
@@ -75,7 +78,7 @@
     <lastmod>2026-10-02T01:32:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/</loc>
-    <lastmod>2026-10-02T01:32:49.000Z</lastmod>
+    <lastmod>2026-10-02T02:11:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/sources/developers-cheatsheet</loc>
     <lastmod>2026-08-24T02:05:50.000Z</lastmod>
