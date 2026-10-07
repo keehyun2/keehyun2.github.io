@@ -6,6 +6,18 @@
       <description>최근 10 건 on Dev Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>브라우저 캐시 초기화</title>
+    <link>https://quartz.jzhao.xyz/explorations/browser-cache-clearing</link>
+    <guid>https://quartz.jzhao.xyz/explorations/browser-cache-clearing</guid>
+    <description><![CDATA[ 브라우저는 화면을 빠르게 그리기 위해 이미지·CSS·JS를 메모리와 디스크에 저장해 두고(캐시), 다음 방문 때 서버 대신 이를 재사용한다. 덕분에 로딩이 빨라지지만, 서버의 최신 리소스가 화면까지 반영되지 않는 “예전 화면” 문제가 생긴다. ]]></description>
+    <pubDate>Wed, 07 Oct 2026 00:53:35 GMT</pubDate>
+  </item><item>
+    <title>dev-wiki</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description><![CDATA[ 위키 인덱스 개발 (Development) linux-commands — Linux 필수 명령어 (파일, grep, find, 디스크, 프로세스) git-commands — Git 필수 명령어 (브랜치, 되돌리기, stash, submodule) docker-commands — Docker 필수 명령어 (컨테이너, 이미지, 네트워크) cmake-guide — CMake 빌드 가이드 (Debug/Release, 캐시 관리) java-debugging — Java 실행 및 디버깅 (JVM 옵션, jps, jstack, Maven/Gra... ]]></description>
+    <pubDate>Wed, 07 Oct 2026 00:53:35 GMT</pubDate>
+  </item><item>
     <title>Java 함수형 인터페이스</title>
     <link>https://quartz.jzhao.xyz/concepts/java/java-functional-interface</link>
     <guid>https://quartz.jzhao.xyz/concepts/java/java-functional-interface</guid>
@@ -16,12 +28,6 @@
     <link>https://quartz.jzhao.xyz/concepts/java/java-generics</link>
     <guid>https://quartz.jzhao.xyz/concepts/java/java-generics</guid>
     <description><![CDATA[ **제네릭(Generics)**은 컴파일 타임에 타입을 파라미터화해 타입 안전성을 보장하는 기법으로, 컬렉션(List&lt;T&gt;)과 java-functional-interface|함수형 인터페이스]의 기반이 됩니다. ]]></description>
-    <pubDate>Fri, 02 Oct 2026 02:11:49 GMT</pubDate>
-  </item><item>
-    <title>dev-wiki</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description><![CDATA[ 위키 인덱스 개발 (Development) linux-commands — Linux 필수 명령어 (파일, grep, find, 디스크, 프로세스) git-commands — Git 필수 명령어 (브랜치, 되돌리기, stash, submodule) docker-commands — Docker 필수 명령어 (컨테이너, 이미지, 네트워크) cmake-guide — CMake 빌드 가이드 (Debug/Release, 캐시 관리) java-debugging — Java 실행 및 디버깅 (JVM 옵션, jps, jstack, Maven/Gra... ]]></description>
     <pubDate>Fri, 02 Oct 2026 02:11:49 GMT</pubDate>
   </item><item>
     <title>이진 탐색 트리 (BST)</title>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/concepts/algorithm/sorting-algorithms</link>
     <guid>https://quartz.jzhao.xyz/concepts/algorithm/sorting-algorithms</guid>
     <description><![CDATA[ 여러 가지 데이터 타입 및 자료구조가 있지만, 알고리즘에 집중하기 위해 정수(int) 배열을 오름차순으로 정렬하는 방식으로 설명하겠습니다. 각각의 정렬 알고리즘은 특정 환경에 에서 최적의 성능을 발휘합니다. ]]></description>
-    <pubDate>Fri, 02 Oct 2026 01:32:49 GMT</pubDate>
-  </item><item>
-    <title>Oracle 19c 시간 포맷팅</title>
-    <link>https://quartz.jzhao.xyz/concepts/database/oracle-19c-time-format</link>
-    <guid>https://quartz.jzhao.xyz/concepts/database/oracle-19c-time-format</guid>
-    <description><![CDATA[ Oracle TO_CHAR 함수와 시간 포맷 요소를 사용하여 다양한 시간 표현이 가능합니다. ]]></description>
     <pubDate>Fri, 02 Oct 2026 01:32:49 GMT</pubDate>
   </item>
     </channel>
