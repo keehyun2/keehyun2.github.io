@@ -6,16 +6,28 @@
       <description>최근 10 건 on Dev Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Java 주요 예외 정리</title>
-    <link>https://quartz.jzhao.xyz/concepts/java/java-exceptions</link>
-    <guid>https://quartz.jzhao.xyz/concepts/java/java-exceptions</guid>
-    <description><![CDATA[ Java 예외는 Throwable을 최상위로 하는 계층 구조이며, 컴파일러가 처리를 강제하는 Checked Exception과 런타임에 발생하는 Unchecked Exception(RuntimeException 계열)으로 나뉩니다. ]]></description>
-    <pubDate>Fri, 06 Nov 2026 01:08:58 GMT</pubDate>
+    <title>SQL FOR UPDATE 행 잠금</title>
+    <link>https://quartz.jzhao.xyz/concepts/database/sql-for-update</link>
+    <guid>https://quartz.jzhao.xyz/concepts/database/sql-for-update</guid>
+    <description><![CDATA[ SELECT .. FOR UPDATE는 조회한 행에 **배타 잠금(행 락)**을 거는 SQL 구문입니다. 잠긴 행은 트랜잭션이 끝날 때까지 다른 트랜잭션이 수정하거나 다시 잠글 수 없습니다. ]]></description>
+    <pubDate>Thu, 26 Nov 2026 02:48:09 GMT</pubDate>
   </item><item>
     <title>dev-wiki</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
     <description><![CDATA[ 위키 인덱스 개발 (Development) linux-commands — Linux 필수 명령어 (파일, grep, find, 디스크, 프로세스) git-commands — Git 필수 명령어 (브랜치, 되돌리기, stash, submodule) docker-commands — Docker 필수 명령어 (컨테이너, 이미지, 네트워크) cmake-guide — CMake 빌드 가이드 (Debug/Release, 캐시 관리) java-debugging — Java 실행 및 디버깅 (JVM 옵션, jps, jstack, Maven/Gra... ]]></description>
+    <pubDate>Thu, 26 Nov 2026 02:48:09 GMT</pubDate>
+  </item><item>
+    <title>Oracle SQL 필수 문법</title>
+    <link>https://quartz.jzhao.xyz/summaries/database/oracle-sql</link>
+    <guid>https://quartz.jzhao.xyz/summaries/database/oracle-sql</guid>
+    <description><![CDATA[ DDL (데이터 정의) CREATE TABLE employees ( id NUMBER PRIMARY KEY, name VARCHAR2(100), salary NUMBER ); ALTER TABLE employees ADD department_id NUMBER; ALTER TABLE employees MODIFY salary NUMBER(10,2); DROP TABLE employees; 고급 조회 분석 함수 -- 행 번호 SELECT ROW_NUMBER() OVER (ORDER BY salary DESC) as rank, name,... ]]></description>
+    <pubDate>Thu, 26 Nov 2026 02:48:09 GMT</pubDate>
+  </item><item>
+    <title>Java 주요 예외 정리</title>
+    <link>https://quartz.jzhao.xyz/concepts/java/java-exceptions</link>
+    <guid>https://quartz.jzhao.xyz/concepts/java/java-exceptions</guid>
+    <description><![CDATA[ Java 예외는 Throwable을 최상위로 하는 계층 구조이며, 컴파일러가 처리를 강제하는 Checked Exception과 런타임에 발생하는 Unchecked Exception(RuntimeException 계열)으로 나뉩니다. ]]></description>
     <pubDate>Fri, 06 Nov 2026 01:08:58 GMT</pubDate>
   </item><item>
     <title>브라우저 캐시 초기화</title>
@@ -52,18 +64,6 @@
     <link>https://quartz.jzhao.xyz/concepts/algorithm/bitmask</link>
     <guid>https://quartz.jzhao.xyz/concepts/algorithm/bitmask</guid>
     <description><![CDATA[ 비트마스크란 정수의 이진수 표현을 자료구조로 사용하는 기법입니다. 부호없는 N비트 정수형 변수는 N자리의 이진수로 사용할 수 있습니다. 이때 각 비트가 표현하는 값은 2^0 부터 2^(N-1) 까지입니다. ]]></description>
-    <pubDate>Fri, 02 Oct 2026 01:32:49 GMT</pubDate>
-  </item><item>
-    <title>코딩 테스트 언어별 기본 문법</title>
-    <link>https://quartz.jzhao.xyz/concepts/algorithm/coding-test-language-basics</link>
-    <guid>https://quartz.jzhao.xyz/concepts/algorithm/coding-test-language-basics</guid>
-    <description><![CDATA[ 같은 문제를 c, c++, java, python, c#, nodejs 로 각각 푼 예제 모음입니다. 언어별 입출력 방식과 반복문·조건문 차이를 한눈에 비교할 수 있습니다. 언어별 입출력 — 두 정수의 합 2개 정수를 입력 받고 이를 합하여 콘솔에 출력하는 코드입니다. ]]></description>
-    <pubDate>Fri, 02 Oct 2026 01:32:49 GMT</pubDate>
-  </item><item>
-    <title>최대공약수·최소공배수 (유클리드 호제법)</title>
-    <link>https://quartz.jzhao.xyz/concepts/algorithm/gcd-lcm-euclidean</link>
-    <guid>https://quartz.jzhao.xyz/concepts/algorithm/gcd-lcm-euclidean</guid>
-    <description><![CDATA[ 유클리드 호제법 2개의 수의 최대 공약수를 계산할 때 큰 수(a)를 작은 수(b)로 나누고, 나머지(r)가 0이 아니면 **나누었던 수(b)**를 나머지(r)로 다시 나누고 나머지가 0이 될때까지 반복합니다. ]]></description>
     <pubDate>Fri, 02 Oct 2026 01:32:49 GMT</pubDate>
   </item>
     </channel>

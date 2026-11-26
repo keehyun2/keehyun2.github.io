@@ -29,6 +29,9 @@
     <loc>https://quartz.jzhao.xyz/concepts/database/oracle-19c-time-format</loc>
     <lastmod>2026-10-02T01:32:49.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/concepts/database/sql-for-update</loc>
+    <lastmod>2026-11-26T02:48:09.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/concepts/devops/docker-usage</loc>
     <lastmod>2026-10-02T01:32:49.000Z</lastmod>
   </url><url>
@@ -84,7 +87,7 @@
     <lastmod>2026-10-02T01:32:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/</loc>
-    <lastmod>2026-11-06T01:08:58.000Z</lastmod>
+    <lastmod>2026-11-26T02:48:09.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/sources/developers-cheatsheet</loc>
     <lastmod>2026-08-24T02:05:50.000Z</lastmod>
@@ -102,7 +105,7 @@
     <lastmod>2026-10-02T01:32:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/summaries/database/oracle-sql</loc>
-    <lastmod>2026-10-02T01:32:49.000Z</lastmod>
+    <lastmod>2026-11-26T02:48:09.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/summaries/development/cmake-guide</loc>
     <lastmod>2026-10-02T01:32:49.000Z</lastmod>
